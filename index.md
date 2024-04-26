@@ -9,9 +9,9 @@
             window.addEventListener("onEmbeddedMessagingReady", () => {
     console.log("Received the onEmbeddedMessagingReady event…");
     embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-	"Customer_First_Name" : "FirstName_fromWebsite",
-	"Customer_Last_Name" : "Lastname_fromWebsite",
-	"Customer_Email_Address" : "Test123@fromWebsite.com",
+	"Customer_First_Name" : "FirstName_fromgithub",
+	"Customer_Last_Name" : "Lastname_fromgithub",
+	"Customer_Email_Address" : "Test123@fromgithub.com",
 	"Customer_Language_Preference" : "English"}
 	);
 });
@@ -34,7 +34,8 @@
 <script>
     function launchChat() {
 	//initEmbeddedMessaging();
-        embeddedservice_bootstrap.utilAPI.launchChat()
+        embeddedservice_bootstrap.utilAPI
+	    .launchChat()
             .then(() => {
                 // Success handler used to perform actions
                 // when the chat client launches successfully.
