@@ -29,7 +29,7 @@
         }
     };
 </script>
-<script type='text/javascript' src='https://ulenterpriseorg--chatbot.sandbox.my.site.com/ESWULDigitalAssistant1707752748287/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://ulenterpriseorg--chatbot.sandbox.my.site.com/ESWULDigitalAssistant1707752748287/assets/js/bootstrap.min.js'></script>
 // Call Launch Chat API.
 <script>
     function launchChat() {
