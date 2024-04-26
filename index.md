@@ -5,7 +5,7 @@
     function initEmbeddedMessaging() {
         try {
             embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-            
+            embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
             window.addEventListener("onEmbeddedMessagingReady", () => {
     console.log("Received the onEmbeddedMessagingReady event…");
     embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
@@ -30,7 +30,7 @@
     };
 </script>
 <script type='text/javascript' src='https://ulenterpriseorg--chatbot.sandbox.my.site.com/ESWULDigitalAssistant1707752748287/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-// Call Launch Chat API.
+
 <script>
     function launchChat() {
 	//initEmbeddedMessaging();
